@@ -1,0 +1,78 @@
+/** @format */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+/*Header styling*/
+header {
+  background-color: #4466;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 10px;
+  font-size: 3rem;
+}
+
+header a {
+  color: #ffcc00;
+  font-size: 1.2rem;
+  text-decoration: wavy;
+}
+
+/*Profile picture style*/
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+/*main content container*/
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/*section styling*/
+section {
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+section h2 {
+  color: #004466;
+  margin-bottom: 10px;
+}
+
+/*list Styling*/
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #424242;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #ffca28;
+}
+
+footer a :hover {
+  text-decoration: underline;
+}
